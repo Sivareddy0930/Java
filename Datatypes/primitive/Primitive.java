@@ -1,16 +1,16 @@
 class Primitive {
 public static void main(String[] args){
-	byte a=10;
-	short b=200;
-	int c=40000;
-	long d=9866123628l;
+	byte a=10; //size:1byte
+	short b=200;//size:2bytes
+	int c=40000;//size:4bytes
+	long d=9866123628l;//size:8bytes
 	
-	float e=4.4f;
-	double f=44223311.1234d;
+	float e=4.4f;//size:4bytes
+	double f=44223311.1234d;//size:8bytes
 
-	char g='S';
+	char g='S';//size:2bytes
 	
-	boolean h=true;
+	boolean h=true;//size:1byte
 
 
 	System.out.println(a);
