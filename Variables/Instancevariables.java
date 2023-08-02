@@ -12,6 +12,8 @@ public class Instancevariables {
     public static void main(String[] args) {
             Instancevariables obj=new Instancevariables();
             System.out.println(obj.a);
+            obj.a=100;
+            System.out.println(obj.a);
     }    
 }
 //to compile and execute we have use package related syntax here .

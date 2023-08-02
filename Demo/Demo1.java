@@ -1,7 +1,11 @@
 
  class Test{
+	static int s=10;
 public void m1(){
 System.out.println("class2 method 1");
+
+
+
 }
 
 } 
@@ -12,6 +16,7 @@ public class Demo1{
 		Test obj=new Test();
 		int a=10;
         System.out.println(obj.getClass().getName());
+		System.out.println(obj.s);
 }
 }
 
