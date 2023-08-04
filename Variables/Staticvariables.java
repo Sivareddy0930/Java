@@ -1,4 +1,4 @@
-package Variables;
+
 
 
 public class Staticvariables {
