@@ -1,22 +1,15 @@
-
- class Test{
-	static int s=10;
-public void m1(){
-System.out.println("class2 method 1");
-
-
-
-}
-
-} 
+ 
 
 public class Demo1{
+	int id=100;
+	static void m1(){
+		int a=100;
+		System.out.println(a);
+	}
 	public static void main(String[] args){
-
-		Test obj=new Test();
-		int a=10;
-        System.out.println(obj.getClass().getName());
-		System.out.println(obj.s);
+		m1();
+		
+		
 }
 }
 
