@@ -1,8 +1,8 @@
-package pack3;
+package subPack3.pack1;
 
 public class E{
 
-	public String msg ="I am Pack3. E class";
+	public static String msg ="I am Pack3. E class";
     
     public static void main(String[] args) {
       
