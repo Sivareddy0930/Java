@@ -1,20 +1,21 @@
  
 
-public class Demo1{
+public abstract interface Demo1{
+
+	default void m2(){
+		System.out.println("Default");
+	}
+
 	
-	public static void main(String...names){
+}
+class B implements Demo1{
+
+	public static void main(String[] args){
+		B obj=new B();
+		obj.m2();
 		
 
-System.out.println("hello");
-
-}
-
-	static public void main(String[] names){
-		
-
-System.out.println("hello");
-
-}
+	}
 }
 
 
