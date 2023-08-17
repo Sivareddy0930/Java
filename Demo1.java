@@ -1,5 +1,5 @@
 abstract class A{
-	abstract void m1();
+	abstract static void m1();
 }
 abstract class B{
 	abstract void m1();
@@ -7,7 +7,7 @@ abstract class B{
 
 
 
-public class Demo1 extends A,B{
+public class Demo1 extends A{
 
 	public void m1(){
 		System.out.println("hi");

@@ -1,21 +1,18 @@
 
 
-interface A{
-	void m1();
+class B{
+	static void m1(){
+		System.out.println("Hello");
+	}
 }
+abstract class A extends B{
 
-abstract class  B implements A{
-
-	public void m1(){
+	public static void m1(){
 		System.out.println("HI");
 			}
-	
-}
-class Demo2 extends B{
-	public static void main(String[] args){
-				Demo2 obj=new Demo2();
-
-				obj.m1();
+			public static void main(String[] args){
+				B.m1();
 	}
+	
 }
 
