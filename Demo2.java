@@ -1,18 +1,14 @@
 
 
 class B{
-	static void m1(){
-		System.out.println("Hello");
+	public static void main(String[] args){
+			System.out.println("Hi");
 	}
 }
-abstract class A extends B{
+ class A extends B{
 
-	public static void m1(){
-		System.out.println("HI");
-			}
-			public static void main(String[] args){
-				B.m1();
-	}
+	//we can use the above method here due to extends .
+	// we can implement class A .even no main method is there  due to inherentace.
 	
 }
 
