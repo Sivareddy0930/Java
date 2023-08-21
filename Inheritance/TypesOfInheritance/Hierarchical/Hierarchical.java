@@ -76,7 +76,7 @@ public static void main(String args[]){
 */
 //--------------------------------------------------------
 
-            Animal c=new Dog();  
+  /*          Animal c=new Dog();  
         System.out.println(c.Eyes);
         System.out.println(c.type);
         System.out.println(Animal.type);
@@ -89,4 +89,20 @@ public static void main(String args[]){
         Cat.eat();
         c.bark();//CE:-Due to parent Reference. 
         c.Meow();//CE:-Due to parent Reference. 
+
+    */
+
+          Animal c=new BabyDog();  
+        System.out.println(c.Eyes);
+        System.out.println(c.type);
+        System.out.println(Animal.type);
+        System.out.println(Dog.type);
+        System.out.println(Cat.type);
+
+        c.m1();
+        c.eat();
+        Dog.eat();
+        Cat.eat();
+        c.bark();//CE:-Due to parent Reference. 
+        c.Meow();//CE:-Due to parent Reference.
 }}  
