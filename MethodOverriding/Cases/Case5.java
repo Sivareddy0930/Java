@@ -14,6 +14,7 @@ public class Case5 extends A{
     }
 
 // we cannot override the final methods.
+
 public static void main(String[] args){
 
     Case5 obj=new Case5();
