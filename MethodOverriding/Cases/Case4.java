@@ -8,7 +8,11 @@ class A{
 }
 
 public class Case4 extends A{
-         private void m1(){
+    //      private void m1(){
+    //    System.out.println("Hello");
+          
+    // }
+     public void m1(){
        System.out.println("Hello");
           
     }
