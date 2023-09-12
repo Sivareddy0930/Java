@@ -13,7 +13,7 @@ class Bmw extends Bike{
 }
 public class Runpoly{
    public static void main(String args[]){
-     Bike b=new Bmw();//upcasting
+     Bike b=new Bmw();//upcasting or widening
     b.m1();
     b.m2();
    }

@@ -1,14 +1,14 @@
 
 
 
-public class Demo1 {
+public class instanceofAndgetClass {
 
 
     public static void main(String[] args) 
     {
-       Demo1 obj=new Demo1();
+       instanceofAndgetClass obj=new instanceofAndgetClass();
 			
-		System.out.println(obj instanceof Demo1);
+		System.out.println(obj instanceof instanceofAndgetClass);
 		System.out.println(obj.getClass());
 		System.out.println(obj.getClass().getName());
 
