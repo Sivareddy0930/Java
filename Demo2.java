@@ -2,12 +2,12 @@
 
 class B{
 	public static void main(String[] args){
-			long i=170;
-			int b=(int)i;
-			char c='c';
-			byte k=(byte)c;
-			System.out.println(b);
-			System.out.println(k);
+			m1();
+
+	}
+	static void m1(){
+		Thread.sleep(10000);
+		// System.out.println(10/0);
 	}
 }
  
