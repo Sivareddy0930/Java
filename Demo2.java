@@ -1,14 +1,15 @@
 
-
-class B{
+interface A{
+	public abstract void m1();
+}
+class Demo2 {
 	public static void main(String[] args){
-			m1();
-
+			
+			A obj =new A(){
+				public void m1(){System.out.println("Anonymous inner class");}};
+		obj.m1();
 	}
-	static void m1(){
-		Thread.sleep(10000);
-		// System.out.println(10/0);
-	}
+	
 }
  
 
